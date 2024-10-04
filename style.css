@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+}
+.hide{
+    display: flex; justify-content: right; gap: 20px; padding-left: 20%;  
+}
+.navbari{
+    display: none;
+    position: absolute;
+    top: 5%;
+}
+
+@media screen and (max-width: 800px) 
+{
+.navbari{
+    display: block;
+    gap: 300px;
+}
+.hide{display: block;
+    display: none;
+}
+    
+}
